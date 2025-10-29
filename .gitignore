@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.env
+
+
+# Virtual environments
+.vscode/
+.venv
+
+# Data
+data/
+!data/raw/.gitkeep    # optional: keep folder structure
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models & submissions
+models/
+submissions/
+*.pkl
+*.joblib
